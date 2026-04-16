@@ -9,7 +9,7 @@ pipeline {
         )
         choice(
             name: 'ENV',
-            choices: ['dev', 'stage', 'prod'],
+            choices: ['dev', 'prod', 'uat'],
             description: 'Select Environment'
         )
         string(
