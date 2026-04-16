@@ -30,7 +30,7 @@ pipeline {
                 script {
                     echo "Building from branch: ${params.BRANCH}"
                     git branch: "${params.BRANCH}",
-                        url: 'https://github.com/your-repo.git'
+                        url: 'https://github.com/pratikzende882002-hash/Terraform-all-repo.git'
                 }
             }
         }
